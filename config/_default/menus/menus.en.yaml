@@ -2047,12 +2047,6 @@ api_v1:
   - name: Delete tests
     parent: Synthetics
     url: delete-tests
-  - name: Get a test configuration
-    parent: Synthetics
-    url: get-a-test-configuration
-  - name: Edit a test
-    parent: Synthetics
-    url: edit-a-test
   - name: Get the test's latest results summaries (API)
     parent: Synthetics
     url: get-the-tests-latest-results-summaries-api
@@ -2062,6 +2056,12 @@ api_v1:
   - name: Pause or start a test
     parent: Synthetics
     url: pause-or-start-a-test
+  - name: Get a test configuration
+    parent: Synthetics
+    url: get-a-test-configuration
+  - name: Edit a test
+    parent: Synthetics
+    url: edit-a-test
   - name: Tags
     url: /api/v1/tags/
     identifier: Tags
